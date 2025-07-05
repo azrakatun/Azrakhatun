@@ -1,0 +1,77 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sk Shoyeb Ur Rahman | Urban Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sk Shoyeb Ur Rahman</h1>
+    <p>Urban Planner | GIS Specialist | Data-Driven Solutions</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Dynamic Urban Planning professional with hands-on experience in urban surveys, spatial analysis, and geospatial data management. Currently Assistant Urban Planner at Sheltech Consultants Pvt Ltd. Skilled in GIS, drone data, and stakeholder engagement.
+    </p>
+    <ul>
+      <li><strong>Email:</strong> skshoyeburrahman@gmail.com</li>
+      <li><strong>LinkedIn:</strong> linkedin.com/in/sk-shoyeb-ur-rahman-95268320</li>
+      <li><strong>Location:</strong> Kaliganj, Satkhira, Khulna</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Key Projects</h2>
+    <ul>
+      <li>
+        <strong>Urban Growth Analysis:</strong> Led GIS-based spatial analysis to identify urban growth patterns and support sustainable planning.
+      </li>
+      <li>
+        <strong>Drone Data Processing:</strong> Managed UAV data collection and improved geospatial accuracy for urban surveys.
+      </li>
+      <li>
+        <strong>Survey Protocol Development:</strong> Developed standardized protocols, reducing turnaround time by 20%.
+      </li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>Research & Publications</h2>
+    <ul>
+      <li>Assessing Extreme Precipitation-Induced Landslides Using Integrated Machine Learning Models – Under Review</li>
+      <li>Assessing Coastal Vulnerability: A GIS-Based MCDM Analysis for the Ganges Delta in Bangladesh – Under Review</li>
+      <li>Presented: Solid Waste Management System of Rural Growth Centers in Bangladesh (WasteSafe 2023)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sk Shoyeb Ur Rahman</p>
+    <button id="toggle-theme">Toggle Light/Dark Mode</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
